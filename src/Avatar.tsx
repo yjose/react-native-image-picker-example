@@ -49,7 +49,7 @@ export const Avatar = (props: AvatarProps) => {
 
   return (
     <>
-      <TouchableOpacity onPress={chooseImage}>
+      <TouchableOpacity onPress={open}>
         <Image
           style={styles.avatar}
           {...props}
